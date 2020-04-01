@@ -138,7 +138,8 @@ public class GameOfLife extends Application{
 
 		// Form controls and default settings
 		HBox hbox = new HBox(20);
-		hbox.setPadding(new Insets(5,0,5,150));
+		hbox.setAlignment(Pos.CENTER);
+		hbox.setPadding(new Insets(5,0,5,0));
 		Button btnStep = new Button("Step");
 		Button btnPlay = new Button("Play");
 		Button btnRandom = new Button("Random");
